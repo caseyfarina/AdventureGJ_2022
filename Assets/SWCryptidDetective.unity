@@ -175,7 +175,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 105.93
+  field of view: 77.5
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 1941680565}
   m_Follow: {fileID: 1941680565}
   m_Lens:
-    FieldOfView: 105.93
+    FieldOfView: 77.5
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -881,7 +881,7 @@ Transform:
   m_GameObject: {fileID: 1941680562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 242.2, y: 107.31, z: 133.7}
-  m_LocalScale: {x: 1, y: 1, z: 6.09}
+  m_LocalScale: {x: 0.57, y: 0.57, z: 3.77}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -899,7 +899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d6df44dd18f154ea00364c924a0fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upThrust: 30
+  upThrust: 20
   turnThrust: 15
   forwardThrustValue: 10
   finRotation: -45
