@@ -28,7 +28,7 @@ public class submovement : MonoBehaviour
         thisBody = transform.GetComponent < Rigidbody > ();
         thisAnimator = transform.GetComponent<Animator>();
 
-        forwardThrust = new Vector3(0, 0, forwardThrustValue);
+       
     }
 
     // Update is called once per frame
@@ -56,6 +56,8 @@ public class submovement : MonoBehaviour
         float h = Input.GetAxis("Horizontal") * turnThrust * Time.deltaTime;
         thisBody.AddTorque(transform.up *h, 0);
 
+
+        forwardThrust = new Vector3(0, 0, forwardThrustValue);
         if (Input.GetKey(KeyCode.Space))
         {
             thisBody.AddRelativeForce(forwardThrust);
