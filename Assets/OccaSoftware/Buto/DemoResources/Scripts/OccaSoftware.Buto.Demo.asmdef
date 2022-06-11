@@ -1,0 +1,16 @@
+{
+    "name": "OccaSoftware.Buto.Demo",
+    "rootNamespace": "OccaSoftware.Buto.Demo",
+    "references": [
+        "GUID:b3763d1fcf07dc949b5260d9806d3565"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
