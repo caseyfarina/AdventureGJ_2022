@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/defaultAssets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/SWCryptidDetective.unity
+    guid: e6fa83ae1ac37da4c91d2345fa17f801
+  - enabled: 1
+    path: Assets/testScene.unity
+    guid: 8ac42b6b80a8109428d2f4630e3b47fe
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e3b83c8fc88ae0d44a5dd39b1c2b385c, type: 2}

@@ -148,7 +148,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FogDensity: 21.2
+    - _FogDensity: 3
     - _Gain: 0.3
     - _GlossMapScale: 0
     - _Glossiness: 0
