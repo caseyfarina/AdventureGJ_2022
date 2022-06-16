@@ -136,19 +136,19 @@ Material:
     - _AnimateSamplePosition: 1
     - _Anisotropy: 0.125
     - _AttenuationBoundarySize: 259.7
-    - _BaseHeight: 20
+    - _BaseHeight: 93.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorRampInfluence: 0.842
+    - _ColorRampInfluence: 0.808
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FogDensity: 3
+    - _FogDensity: 36.5
     - _Gain: 0.3
     - _GlossMapScale: 0
     - _Glossiness: 0
