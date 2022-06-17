@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/testScene.unity
     guid: 8ac42b6b80a8109428d2f4630e3b47fe
+  - enabled: 1
+    path: Assets/explore/Scenes/Nikki_escher_scene.unity
+    guid: 5765c42c7d6bece4883a15d73c0ff69f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e3b83c8fc88ae0d44a5dd39b1c2b385c, type: 2}
