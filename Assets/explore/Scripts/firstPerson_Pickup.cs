@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class firstPerson_Pickup : MonoBehaviour
 {
@@ -13,7 +12,6 @@ public class firstPerson_Pickup : MonoBehaviour
     public float pickUpVolume = .5f;
     public int currentPickups = 0;
     public int remainingPickups = 0;
-    public GameObject winMessage;
    
    
 
@@ -56,19 +54,7 @@ public class firstPerson_Pickup : MonoBehaviour
             if(scoreObject != null)
             {
                 scoreKeeper.IncrementScore();
-            }        
-            
-            if(currentPickups >= totalPickups)
-            {
-                winMessage.SetActive(true);
-                Invoke("mainScene", 4);
-
-            }
+            }           
         }
-    }
-
-    void mainScene()
-    {
-        SceneManager.LoadScene(0);
     }
 }

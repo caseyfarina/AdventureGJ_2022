@@ -35,9 +35,9 @@ public class submovement : MonoBehaviour
     void Update()
     {
         thisBody.AddForce(new Vector3(0, Input.GetAxis("Vertical") * upThrust, 0));
-        Debug.Log(Input.GetAxis("Horizontal"));
+       // Debug.Log(Input.GetAxis("Horizontal"));
         float tempfinRotation = Mathf.SmoothStep(-finRotation, finRotation, Mathf.InverseLerp(-1,1,Input.GetAxis("Horizontal")));
-        Debug.Log("lerp " + finRotation);
+        //eDebug.Log("lerp " + finRotation);
         //fin.transform.localEulerAngles = new Vector3(0f, tempfinRotation, 0f);
 
         /*

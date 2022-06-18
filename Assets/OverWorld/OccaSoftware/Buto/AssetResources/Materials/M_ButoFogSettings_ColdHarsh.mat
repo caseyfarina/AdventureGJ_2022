@@ -135,8 +135,8 @@ Material:
     - _AlphaClip: 0
     - _AnimateSamplePosition: 1
     - _Anisotropy: 0.125
-    - _AttenuationBoundarySize: 259.7
-    - _BaseHeight: 93.5
+    - _AttenuationBoundarySize: 300
+    - _BaseHeight: 500
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -148,14 +148,14 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FogDensity: 36.5
+    - _FogDensity: 15.99
     - _Gain: 0.3
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HeightFalloff: 0.795
     - _Lacunarity: 2.36
-    - _LightIntensity: 1
+    - _LightIntensity: 0.81
     - _MaxDistanceNonVol: 5000
     - _MaxDistanceNonVolumetric: 5000
     - _MaxDistanceVol: 64
@@ -171,7 +171,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SampleCount: 59
-    - _ShadowIntensity: 1
+    - _ShadowIntensity: 3.09
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
